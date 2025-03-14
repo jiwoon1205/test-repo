@@ -1,3 +1,6 @@
+
+#정지운 202402471 ELLT학과
+
 def gcd1(a, b):
     while a != b:
         if a > b:
@@ -19,6 +22,6 @@ def gcd3(a, b):
 
 A, B, C = gcd1(3323, 12), gcd2(3323, 12), gcd3(3323, 12)
 print(f"{A}, {B}, {C}")
-print("정답은", 3323%23)
+print(3323%23)
 
 
